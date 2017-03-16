@@ -1,0 +1,4 @@
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Datos\bin\Debug\Datos.dll
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Datos\bin\Debug\Datos.pdb
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Datos\obj\Debug\Datos.dll
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Datos\obj\Debug\Datos.pdb

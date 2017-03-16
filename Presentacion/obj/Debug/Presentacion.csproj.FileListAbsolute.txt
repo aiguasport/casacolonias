@@ -1,0 +1,14 @@
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\bin\Debug\Presentacion.dll
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\bin\Debug\Presentacion.pdb
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\obj\Debug\Presentacion.dll
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\obj\Debug\Presentacion.pdb
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\obj\Debug\Presentacion.SuperAdmin.resources
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\obj\Debug\Presentacion.AdminMantenimiento.resources
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\obj\Debug\Presentacion.AddAdministrador.resources
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\obj\Debug\Presentacion.AddMonitor.resources
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\obj\Debug\Presentacion.MonitorMantenimiento.resources
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\obj\Debug\Presentacion.AddTareas.resources
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\obj\Debug\Presentacion.TareasMantenimiento.resources
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources

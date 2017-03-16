@@ -1,0 +1,5 @@
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Negocio\bin\Debug\Negocio.dll
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Negocio\bin\Debug\Negocio.pdb
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Negocio\obj\Debug\Negocio.dll
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Negocio\obj\Debug\Negocio.pdb

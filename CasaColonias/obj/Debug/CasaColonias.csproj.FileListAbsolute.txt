@@ -1,0 +1,11 @@
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\CasaColonias\bin\Debug\CasaColonias.exe.config
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\CasaColonias\bin\Debug\CasaColonias.exe
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\CasaColonias\bin\Debug\CasaColonias.pdb
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\CasaColonias\bin\Debug\Presentacion.dll
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\CasaColonias\bin\Debug\Presentacion.pdb
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\CasaColonias\obj\Debug\CasaColonias.csprojResolveAssemblyReference.cache
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\CasaColonias\obj\Debug\CasaColonias.Login.resources
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\CasaColonias\obj\Debug\CasaColonias.Properties.Resources.resources
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\CasaColonias\obj\Debug\CasaColonias.csproj.GenerateResource.Cache
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\CasaColonias\obj\Debug\CasaColonias.exe
+D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\CasaColonias\obj\Debug\CasaColonias.pdb
