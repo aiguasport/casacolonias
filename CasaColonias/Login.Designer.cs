@@ -49,7 +49,6 @@
             this.txtDni.Name = "txtDni";
             this.txtDni.Size = new System.Drawing.Size(172, 25);
             this.txtDni.TabIndex = 0;
-            this.txtDni.Text = "48589674T";
             // 
             // label1
             // 
@@ -79,7 +78,6 @@
             this.txtMail.Name = "txtMail";
             this.txtMail.Size = new System.Drawing.Size(172, 25);
             this.txtMail.TabIndex = 2;
-            this.txtMail.Text = "yo@yo.es";
             // 
             // btnLogin
             // 
@@ -106,35 +104,36 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Mistral", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(112, 28);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 26);
+            this.label3.Size = new System.Drawing.Size(73, 25);
             this.label3.TabIndex = 6;
             this.label3.Text = "CASA";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Mistral", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(164, 80);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 26);
+            this.label4.Size = new System.Drawing.Size(127, 25);
             this.label4.TabIndex = 7;
             this.label4.Text = "COLÓNIAS";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Mistral", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(146, 54);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(33, 26);
+            this.label5.Size = new System.Drawing.Size(43, 25);
             this.label5.TabIndex = 8;
             this.label5.Text = "DE";
             // 
             // Login
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
