@@ -3,3 +3,12 @@ D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Negocio\bin\Debug\Negoci
 D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
 D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Negocio\obj\Debug\Negocio.dll
 D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Negocio\obj\Debug\Negocio.pdb
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Negocio\bin\Debug\Negocio.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Negocio\bin\Debug\Negocio.pdb
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Negocio\bin\Debug\Datos.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Negocio\bin\Debug\MySql.Data.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Negocio\bin\Debug\Datos.pdb
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Negocio\bin\Debug\MySql.Data.xml
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Negocio\obj\Debug\Negocio.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Negocio\obj\Debug\Negocio.pdb

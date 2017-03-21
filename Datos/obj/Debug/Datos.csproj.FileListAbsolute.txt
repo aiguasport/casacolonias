@@ -2,3 +2,10 @@ D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Datos\bin\Debug\Datos.dl
 D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Datos\bin\Debug\Datos.pdb
 D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Datos\obj\Debug\Datos.dll
 D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Datos\obj\Debug\Datos.pdb
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Datos\bin\Debug\Datos.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Datos\bin\Debug\Datos.pdb
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Datos\bin\Debug\MySql.Data.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Datos\bin\Debug\MySql.Data.xml
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Datos\obj\Debug\Datos.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Datos\obj\Debug\Datos.pdb

@@ -9,3 +9,20 @@ D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\CasaColonias\obj\Debug\C
 D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\CasaColonias\obj\Debug\CasaColonias.csproj.GenerateResource.Cache
 D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\CasaColonias\obj\Debug\CasaColonias.exe
 D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\CasaColonias\obj\Debug\CasaColonias.pdb
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\bin\Debug\CasaColonias.exe.config
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\obj\Debug\CasaColonias.exe
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\obj\Debug\CasaColonias.pdb
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\obj\Debug\CasaColonias.csprojResolveAssemblyReference.cache
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\obj\Debug\CasaColonias.Login.resources
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\obj\Debug\CasaColonias.Properties.Resources.resources
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\obj\Debug\CasaColonias.csproj.GenerateResource.Cache
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\bin\Debug\CasaColonias.exe
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\bin\Debug\CasaColonias.pdb
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\bin\Debug\Negocio.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\bin\Debug\Presentacion.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\bin\Debug\Datos.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\bin\Debug\MySql.Data.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\bin\Debug\Negocio.pdb
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\bin\Debug\Presentacion.pdb
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\bin\Debug\Datos.pdb
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\CasaColonias\bin\Debug\MySql.Data.xml

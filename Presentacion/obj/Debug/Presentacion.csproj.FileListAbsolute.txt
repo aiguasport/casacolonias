@@ -12,3 +12,17 @@ D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\obj\Debug\P
 D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\obj\Debug\Presentacion.AddTareas.resources
 D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\obj\Debug\Presentacion.TareasMantenimiento.resources
 D:\Instituto\DAM2M7\Practica Casa Colonias\CasaColonias\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\Presentacion.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.AddAdministrador.resources
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.AddMonitor.resources
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.AddTareas.resources
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.AdminMantenimiento.resources
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.MonitorMantenimiento.resources
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.SuperAdmin.resources
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.TareasMantenimiento.resources
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.pdb

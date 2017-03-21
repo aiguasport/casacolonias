@@ -7,10 +7,10 @@ namespace Datos
     public class BDConect
     {
 
-        private static readonly String HOST = "";
-        private static readonly String BD = "";
-        private static readonly String USER = "";
-        private static readonly String PASSWORD = "";
+        private static readonly String HOST = "localhost";
+        private static readonly String BD = "casa_colonias";
+        private static readonly String USER = "alumne";
+        private static readonly String PASSWORD = "alumne";
         private static MySqlConnection sqlCon;
         private static BDConect instance = null;
 
