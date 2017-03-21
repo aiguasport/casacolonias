@@ -21,28 +21,45 @@ namespace CasaColonias
             control = new ControladorPersonal();
         }
 
-        private void Login_Load(object sender, EventArgs e)
-        {
-
-        }
-
+        //Login BUTTON
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            //Search person in Table personal,If exist in BD return true and the next search rol
            bool result = control.comprobarPersonal(txtDni.Text, txtMail.Text);
             if(result == true)
             {
-                int rol = control.getRol(txtDni.Text);
-                MessageBox.Show(rol.ToString());
+                //if exist in Table person,search in table Adminstrador,if exit return 1 if not search 
+                //in table monitor
+                int rolAdmin = control.getRolAdministrador(txtDni.Text);
+
+                if(rolAdmin == 1)
+                {
+                    SuperAdmin miForm = new SuperAdmin();
+                    miForm.Show();
+                    this.Hide();
+                }else
+                {
+
+                    int rolMonitor = control.getRolMonitor(txtDni.Text);
+
+                    if(rolMonitor == 1)
+                    {
+                        //TODO
+                        MessageBox.Show("Eres Monitor");
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("No tiene asignado un rol");
+                    }
+                }
+                
             }
             else
             {
                 MessageBox.Show("NIf o Mail incorrectos");
             }
-          
-
-            //SuperAdmin miForm = new SuperAdmin();
-            //miForm.Show();
-            //this.Hide();
+           
         }
     }
 }

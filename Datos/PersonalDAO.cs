@@ -17,7 +17,8 @@ namespace Datos
         {
             dataSource = BDConect.getInstance();
         }
-
+      //Function to search al personal,
+      //return a DataSet,if is null return a null DataSet
         public DataSet getAllPersonal()
         {
             DataSet dataPersonal = new DataSet();
@@ -36,6 +37,7 @@ namespace Datos
             }
             catch (Exception e)
             {
+                Console.Write(e);
                 dataPersonal = new DataSet();
             }
             finally
@@ -46,7 +48,8 @@ namespace Datos
             }
             return dataPersonal;
         }
-
+        //Seache in table personal one person with param nif and mail,
+        //return a true if exist or false or not;
         public Boolean getPersonalLogin(string nif,string mail)
         {
             Boolean result = true;
@@ -55,7 +58,7 @@ namespace Datos
             MySqlCommand mysqlCmd = null;
             MySqlDataAdapter mysqlAdapter = null;
             String sql;
-            sql = "SELECT * from personal where dni = '"+nif+"' and mail = '"+mail+"'";
+            sql = "SELECT count(dni) as result from personal where dni = '"+nif+"' and mail = '"+mail+"'";
             try
             {
                 connection = dataSource.getConnection();
@@ -63,10 +66,21 @@ namespace Datos
                 mysqlCmd = new MySqlCommand(sql, connection);
                 mysqlAdapter = new MySqlDataAdapter(mysqlCmd);
                 mysqlAdapter.Fill(dataPersonal);
-                result = true;
-            }
+                int coun = int.Parse(dataPersonal.Tables[0].Rows[0][0].ToString());
+                if (coun != 0)
+                {
+                    result = true;
+
+                }
+                else
+                {
+                    result = false;
+                }
+
+                }
             catch (Exception e)
             {
+                Console.Write(e);
                 result = false;
             }
             finally
@@ -77,8 +91,8 @@ namespace Datos
             }
             return result;
         }
-
-        public int getRolPersonal(string nif)
+        //Search if person is in Administrador Table,return 1 if exist or 0 if not;
+        public int getRolAdministrador(string nif)
         {
             int result = 0;
             DataSet dataPersonal = new DataSet();
@@ -87,6 +101,40 @@ namespace Datos
             MySqlDataAdapter mysqlAdapter = null;
             String sql;
             sql = "SELECT count(dni) as result from administrador where dni = '" + nif + "'";
+            try
+            {
+                connection = dataSource.getConnection();
+                connection.Open();
+                mysqlCmd = new MySqlCommand(sql, connection);
+                mysqlAdapter = new MySqlDataAdapter(mysqlCmd);
+                mysqlAdapter.Fill(dataPersonal);
+                result = int.Parse(dataPersonal.Tables[0].Rows[0][0].ToString());
+            }
+            catch (Exception e)
+            {
+                Console.Write(e);
+                result = 0;
+            }
+            finally
+            {
+                if (mysqlCmd != null) mysqlCmd.Dispose();
+                if (mysqlAdapter != null) mysqlAdapter.Dispose();
+                if (connection != null) connection.Close();
+            }
+
+
+            return result;
+        }
+        //Search if person is in Monitor Table,return 1 if exist or 0 if not;
+        public int getRolMonitor(string nif)
+        {
+            int result = 0;
+            DataSet dataPersonal = new DataSet();
+            MySqlConnection connection = null;
+            MySqlCommand mysqlCmd = null;
+            MySqlDataAdapter mysqlAdapter = null;
+            String sql;
+            sql = "SELECT count(dni) as result from monitor where dni = '" + nif + "'";
             try
             {
                 connection = dataSource.getConnection();

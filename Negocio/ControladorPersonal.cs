@@ -20,9 +20,14 @@ namespace Negocio
         {
             return personal.getPersonalLogin(nif, mail);
         }
-        public int getRol(string nif)
+        public int getRolAdministrador(string nif)
         {
-            return personal.getRolPersonal(nif);
+            return personal.getRolAdministrador(nif);
+        }
+
+        public int getRolMonitor(string nif)
+        {
+            return personal.getRolMonitor(nif);
         }
 
 
