@@ -26,3 +26,9 @@ C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debu
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.dll
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\Datos.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\Negocio.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\MySql.Data.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\Datos.pdb
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\MySql.Data.xml

@@ -39,7 +39,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtMail = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnADD = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -145,16 +145,17 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "MAIL:";
             // 
-            // button1
+            // btnADD
             // 
-            this.button1.BackColor = System.Drawing.Color.SeaGreen;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(103, 405);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(171, 33);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "ADD o MODIFICA";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnADD.BackColor = System.Drawing.Color.SeaGreen;
+            this.btnADD.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnADD.Location = new System.Drawing.Point(103, 405);
+            this.btnADD.Name = "btnADD";
+            this.btnADD.Size = new System.Drawing.Size(171, 33);
+            this.btnADD.TabIndex = 10;
+            this.btnADD.Text = "ADD o MODIFICA";
+            this.btnADD.UseVisualStyleBackColor = false;
+            this.btnADD.Click += new System.EventHandler(this.btnADD_Click);
             // 
             // label6
             // 
@@ -183,7 +184,7 @@
             this.ClientSize = new System.Drawing.Size(415, 456);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnADD);
             this.Controls.Add(this.txtMail);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtTelefono);
@@ -217,7 +218,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtMail;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnADD;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox1;
     }

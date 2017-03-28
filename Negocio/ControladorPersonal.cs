@@ -29,6 +29,10 @@ namespace Negocio
         {
             return personal.getRolMonitor(nif);
         }
+        public int AddPersonal(Personal person)
+        {
+            return personal.AddPersonal(person);
+        }
 
 
     }

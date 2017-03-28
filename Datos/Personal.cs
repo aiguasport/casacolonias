@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Datos
 {
-    class Personal
+   public class Personal
     {
 
         string nif;
