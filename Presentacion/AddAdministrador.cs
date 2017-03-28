@@ -27,12 +27,17 @@ namespace Presentacion
         {
 
         }
-
+        //ADD A NEW PERSONAL
+        //IF THE ADD IS CORRECT INSERT THIS PERSON IN ADMIN TABLE
         private void btnADD_Click(object sender, EventArgs e)
         {
             Personal personal = new Personal();
             personal = new Personal(txtDni.Text, txtName.Text, txtApellidos.Text, txtMail.Text);
             int result = personalDao.AddPersonal(personal);
+            if(result == 1)
+            {
+
+            }
         }
     }
 }

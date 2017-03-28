@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administrador.cs" />
     <Compile Include="AdministradorSuperDao.cs" />
     <Compile Include="BDConect.cs" />
     <Compile Include="PersonalDAO.cs" />

@@ -162,6 +162,7 @@ namespace Datos
 
         public int AddPersonal(Personal person)
         {
+            int result = 0;
 
             MySqlConnection connection = null;
             MySqlCommand mysqlCmd = null;
@@ -180,11 +181,12 @@ namespace Datos
                 mysqlCmd = new MySqlCommand(sql, connection);
                 mysqlAdapter = new MySqlDataAdapter(mysqlCmd);
                 mysqlCmd.ExecuteNonQuery();
+                result = 1;
             }
             catch (Exception e)
             {
                 Console.Write(e);
-
+                result = 0;
             }
             finally
             {
@@ -193,7 +195,7 @@ namespace Datos
                 if (connection != null) connection.Close();
             }
 
-            return 0;
+            return result;
         }
 
     }
