@@ -95,5 +95,27 @@ namespace Presentacion
 
             }
         }
+
+        private void AddMonitor_Load(object sender, EventArgs e)
+        {
+            //si el obtenemos un dni de la tabla padre consideramos que vamos a actuallizar un registro
+            //lo buscamos en la base de datos y llenamos los campos con el
+            if (update != "")
+            {
+                DataSet ds = new DataSet();
+                ds = control.getAllPersonalMonitorByDni(update);
+                DataTable dt = ds.Tables[0];
+                //p.dni as dni,p.nombre as nombre,p.apellidos as apellidos,p.mail as mail,a.num_SS as ss,a.titulacion as titulo
+                foreach (DataRow row in dt.Rows)
+                {
+                    txtDni.Text = Convert.ToString(row[0]);
+                    txtName.Text = Convert.ToString(row[1]);
+                    txtApellidos.Text = Convert.ToString(row[2]);
+                    txtMail.Text = Convert.ToString(row[3]);
+                    txFecha.Text = Convert.ToString(row[4]);
+
+                }
+            }
+        }
     }
 }

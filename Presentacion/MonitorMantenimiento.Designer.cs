@@ -105,11 +105,11 @@
             // Modificar
             // 
             this.Modificar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.Modificar.HeaderText = "MODIFY";
+            this.Modificar.HeaderText = "BORRAR";
             this.Modificar.Name = "Modificar";
             this.Modificar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.Modificar.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Modificar.Text = "MODIFY";
+            this.Modificar.Text = "BORRAR";
             this.Modificar.UseColumnTextForButtonValue = true;
             // 
             // MonitorMantenimiento

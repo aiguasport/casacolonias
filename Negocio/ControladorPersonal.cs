@@ -80,6 +80,14 @@ namespace Negocio
         {
             return monitorControl.getAllPersonalMonitor();
         }
+        public int borrarMonitor(string dni)
+        {
+            return monitorControl.borrarMonitor(dni);
+        }
+        public int borrarPersonal(string dni)
+        {
+            return personal.borrarPersonal(dni);
+        }
 
 
     }
