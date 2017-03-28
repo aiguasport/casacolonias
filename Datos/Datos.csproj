@@ -48,6 +48,8 @@
     <Compile Include="Administrador.cs" />
     <Compile Include="AdministradorSuperDao.cs" />
     <Compile Include="BDConect.cs" />
+    <Compile Include="Monitor.cs" />
+    <Compile Include="MonitorDAO.cs" />
     <Compile Include="PersonalDAO.cs" />
     <Compile Include="Personal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -32,8 +32,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.txtMail = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtTelefono = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.txtApellidos = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
@@ -42,6 +40,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txFecha = new System.Windows.Forms.DateTimePicker();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,68 +49,47 @@
             // 
             this.button1.BackColor = System.Drawing.Color.SeaGreen;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(69, 424);
+            this.button1.Location = new System.Drawing.Point(213, 320);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(190, 34);
             this.button1.TabIndex = 21;
             this.button1.Text = "ADD o MODIFICA";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtMail
             // 
             this.txtMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMail.Location = new System.Drawing.Point(25, 371);
+            this.txtMail.Location = new System.Drawing.Point(25, 236);
             this.txtMail.Multiline = true;
             this.txtMail.Name = "txtMail";
             this.txtMail.Size = new System.Drawing.Size(275, 26);
             this.txtMail.TabIndex = 20;
-            this.txtMail.Text = "6666666666666666666666";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(21, 348);
+            this.label5.Location = new System.Drawing.Point(21, 213);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(56, 20);
             this.label5.TabIndex = 19;
             this.label5.Text = "MAIL:";
             // 
-            // txtTelefono
-            // 
-            this.txtTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefono.Location = new System.Drawing.Point(25, 303);
-            this.txtTelefono.Multiline = true;
-            this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(275, 26);
-            this.txtTelefono.TabIndex = 18;
-            this.txtTelefono.Text = "6666666666666666666666";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(21, 280);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 20);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "TELEFONO";
-            // 
             // txtApellidos
             // 
             this.txtApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellidos.Location = new System.Drawing.Point(25, 236);
+            this.txtApellidos.Location = new System.Drawing.Point(319, 163);
             this.txtApellidos.Multiline = true;
             this.txtApellidos.Name = "txtApellidos";
             this.txtApellidos.Size = new System.Drawing.Size(275, 26);
             this.txtApellidos.TabIndex = 16;
-            this.txtApellidos.Text = "6666666666666666666666";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(21, 213);
+            this.label3.Location = new System.Drawing.Point(315, 140);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(113, 20);
             this.label3.TabIndex = 15;
@@ -124,7 +103,6 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(275, 26);
             this.txtName.TabIndex = 14;
-            this.txtName.Text = "6666666666666666666666";
             // 
             // label2
             // 
@@ -144,7 +122,6 @@
             this.txtDni.Name = "txtDni";
             this.txtDni.Size = new System.Drawing.Size(275, 26);
             this.txtDni.TabIndex = 12;
-            this.txtDni.Text = "6666666666666666666666";
             // 
             // label1
             // 
@@ -177,18 +154,37 @@
             this.pictureBox1.TabIndex = 23;
             this.pictureBox1.TabStop = false;
             // 
+            // txFecha
+            // 
+            this.txFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.txFecha.Location = new System.Drawing.Point(319, 83);
+            this.txFecha.Name = "txFecha";
+            this.txFecha.Size = new System.Drawing.Size(167, 29);
+            this.txFecha.TabIndex = 24;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(315, 60);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(188, 20);
+            this.label7.TabIndex = 25;
+            this.label7.Text = "FECHA NACIMIENTO:";
+            // 
             // AddMonitor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(354, 480);
+            this.ClientSize = new System.Drawing.Size(638, 380);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txFecha);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtMail);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtTelefono);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.txtApellidos);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtName);
@@ -210,8 +206,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtMail;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtTelefono;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtApellidos;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtName;
@@ -220,5 +214,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DateTimePicker txFecha;
+        private System.Windows.Forms.Label label7;
     }
 }

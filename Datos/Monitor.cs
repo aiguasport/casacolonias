@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace Datos
 {
-   public class Administrador
+    public class Monitor
     {
         string dni;
-        string num_SS;
-        string titulacion;
+        DateTime fechaNaci;
 
-        public Administrador()
+        public Monitor()
         {
 
         }
-        public Administrador(string dni, string num_SS, string titulacion)
+
+        public Monitor(string dni,DateTime fechaNaci)
         {
             this.dni = dni;
-            this.num_SS = num_SS;
-            this.titulacion = titulacion;
+            this.fechaNaci = fechaNaci;
+
         }
 
 
@@ -30,16 +30,10 @@ namespace Datos
             set { dni = value; }
         }
 
-        public string Mynum_SS
+        public DateTime MyfechaNaci
         {
-            get { return num_SS; }
-            set { num_SS = value; }
-        }
-
-        public string Mytitulacion
-        {
-            get { return titulacion; }
-            set { titulacion = value; }
+            get { return fechaNaci; }
+            set { fechaNaci = value; }
         }
 
         // override object.Equals
@@ -48,7 +42,7 @@ namespace Datos
 
         {
 
-            Administrador personObj = obj as Administrador;
+            Monitor personObj = obj as Monitor;
 
             if (personObj == null)
 
