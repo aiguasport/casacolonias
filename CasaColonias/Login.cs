@@ -44,7 +44,9 @@ namespace CasaColonias
 
                     if(rolMonitor == 1)
                     {
-                        //TODO
+                        MonitorMantenimiento miForm = new MonitorMantenimiento();
+                        miForm.Show();
+                        this.Hide();
                         MessageBox.Show("Eres Monitor");
 
                     }

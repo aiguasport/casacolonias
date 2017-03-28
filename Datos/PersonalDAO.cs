@@ -100,7 +100,7 @@ namespace Datos
             MySqlCommand mysqlCmd = null;
             MySqlDataAdapter mysqlAdapter = null;
             String sql;
-            sql = "SELECT count(dni) as result from administrador where dni = '" + nif + "'";
+            sql = "SELECT count(dni) as result from administrador where dni = '" + nif + "' and titulación = 'super'";
             try
             {
                 connection = dataSource.getConnection();
