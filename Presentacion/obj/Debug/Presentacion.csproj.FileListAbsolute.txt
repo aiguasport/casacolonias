@@ -31,4 +31,9 @@ C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debu
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\MySql.Data.dll
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\Datos.pdb
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\Negocio.pdb
-C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\MySql.Data.xml
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\Presentacion.dll.config
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\EntityFramework.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\EntityFramework.xml
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\EntityFramework.SqlServer.xml

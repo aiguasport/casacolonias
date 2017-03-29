@@ -44,6 +44,7 @@
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
@@ -81,26 +82,31 @@
             this.Column1.HeaderText = "DNI";
             this.Column1.Name = "Column1";
             this.Column1.ToolTipText = "MODIFY";
+            this.Column1.Width = 59;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "NOMBRE";
             this.Column2.Name = "Column2";
+            this.Column2.Width = 98;
             // 
             // Column3
             // 
             this.Column3.HeaderText = "APELLIDO";
             this.Column3.Name = "Column3";
+            this.Column3.Width = 105;
             // 
             // Column4
             // 
             this.Column4.HeaderText = "MAIL";
             this.Column4.Name = "Column4";
+            this.Column4.Width = 67;
             // 
             // Column5
             // 
             this.Column5.HeaderText = "FECHA";
             this.Column5.Name = "Column5";
+            this.Column5.Width = 83;
             // 
             // Modificar
             // 
@@ -111,6 +117,7 @@
             this.Modificar.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.Modificar.Text = "BORRAR";
             this.Modificar.UseColumnTextForButtonValue = true;
+            this.Modificar.Width = 97;
             // 
             // MonitorMantenimiento
             // 

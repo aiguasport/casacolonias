@@ -42,6 +42,7 @@
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
@@ -77,16 +78,19 @@
             this.DNI.HeaderText = "DNI";
             this.DNI.Name = "DNI";
             this.DNI.ToolTipText = "MODIFY";
+            this.DNI.Width = 59;
             // 
             // SS
             // 
             this.SS.HeaderText = "NUM_SS";
             this.SS.Name = "SS";
+            this.SS.Width = 95;
             // 
             // TITULO
             // 
             this.TITULO.HeaderText = "TITULO";
             this.TITULO.Name = "TITULO";
+            this.TITULO.Width = 87;
             // 
             // Modificar
             // 
@@ -97,6 +101,7 @@
             this.Modificar.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.Modificar.Text = "MODIFY";
             this.Modificar.UseColumnTextForButtonValue = true;
+            this.Modificar.Width = 90;
             // 
             // AdminMantenimiento
             // 

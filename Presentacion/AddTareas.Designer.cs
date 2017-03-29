@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddTareas));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtDescripcion = new System.Windows.Forms.TextBox();
+            this.txtDescrip = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -66,14 +66,14 @@
             this.label6.TabIndex = 23;
             this.label6.Text = "AÑADE TAREA";
             // 
-            // txtDescripcion
+            // txtDescrip
             // 
-            this.txtDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDescripcion.Location = new System.Drawing.Point(341, 155);
-            this.txtDescripcion.Multiline = true;
-            this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(275, 26);
-            this.txtDescripcion.TabIndex = 27;
+            this.txtDescrip.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescrip.Location = new System.Drawing.Point(341, 155);
+            this.txtDescrip.Multiline = true;
+            this.txtDescrip.Name = "txtDescrip";
+            this.txtDescrip.Size = new System.Drawing.Size(275, 26);
+            this.txtDescrip.TabIndex = 27;
             // 
             // label2
             // 
@@ -83,7 +83,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(136, 20);
             this.label2.TabIndex = 26;
-            this.label2.Text = "DESCRIPCIÓN:";
+            this.label2.Text = "DESCRIPCION:";
             // 
             // txtCodigo
             // 
@@ -114,6 +114,7 @@
             this.btnAdd.TabIndex = 28;
             this.btnAdd.Text = "ADD";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // txtNivel
             // 
@@ -153,6 +154,7 @@
             this.btnTerminar.TabIndex = 32;
             this.btnTerminar.Text = "TERMINAR";
             this.btnTerminar.UseVisualStyleBackColor = false;
+            this.btnTerminar.Click += new System.EventHandler(this.btnTerminar_Click);
             // 
             // label4
             // 
@@ -171,6 +173,7 @@
             this.listCasas.Size = new System.Drawing.Size(239, 147);
             this.listCasas.TabIndex = 34;
             this.listCasas.UseCompatibleStateImageBehavior = false;
+            this.listCasas.View = System.Windows.Forms.View.List;
             // 
             // label5
             // 
@@ -195,7 +198,7 @@
             this.Controls.Add(this.txtNivel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnAdd);
-            this.Controls.Add(this.txtDescripcion);
+            this.Controls.Add(this.txtDescrip);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.label1);
@@ -203,7 +206,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddTareas";
-            this.Text = "Añadir Tareas";
+            this.Text = "zz";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.AddTareas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -216,7 +219,7 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtDescripcion;
+        private System.Windows.Forms.TextBox txtDescrip;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.Label label1;
