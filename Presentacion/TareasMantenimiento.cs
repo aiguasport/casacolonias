@@ -28,6 +28,8 @@ namespace Presentacion
             {
                 dataGridView1.Rows.Add(Convert.ToString(row["codigo"].ToString()), Convert.ToString(row["descrip"].ToString()), Convert.ToString(row["nivel"].ToString()), Convert.ToString(row["nombre"].ToString()));
             }
+
+            
         }
     }
 }
