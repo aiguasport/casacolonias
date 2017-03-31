@@ -18,7 +18,9 @@ namespace Datos
         {
             dataSource = BDConect.getInstance();
         }
-
+        //Añade una actividad a la tabla administrador
+        //Parametro = objeto Administrador
+        //return 1 si la insercion es correcta o 0 si es error
         public int addAdmin(Administrador admin)
         {
             int result = 0;
@@ -95,6 +97,9 @@ namespace Datos
             return listPersonal;
         }
 
+        //Actualiza un registro de la tabla administrador
+        //Parametro = objeto Administrador
+        //Devuelve 1 en caso de insercion correcta o 0 en caso de error
         public int updateAdmin(Administrador admin)
         {
 
@@ -130,6 +135,43 @@ namespace Datos
             }
 
             return result;
+        }
+
+        //Funcion para devolver una combinacion de las tablas Personal y Administrador
+        //Devuelve un DataSet o un null en caso de error
+        public DataSet getAllAdministradorFull()
+        {
+
+            DataSet dataPersonal = new DataSet();
+            MySqlConnection connection = null;
+            MySqlCommand mysqlCmd = null;
+            MySqlDataAdapter mysqlAdapter = null;
+            String sql;
+            sql = "SELECT p.dni as dni, p.nombre as nombre, p.apellidos as apellidos, p.mail as mail,a.num_SS as num_SS,a.titulacion as titulacion FROM personal as p, administrador as a  WHERE p.dni = a.dni";
+            try
+            {
+                connection = dataSource.getConnection();
+                connection.Open();
+                mysqlCmd = new MySqlCommand(sql, connection);
+                mysqlAdapter = new MySqlDataAdapter(mysqlCmd);
+                mysqlAdapter.Fill(dataPersonal);
+
+
+            }
+            catch (Exception e)
+            {
+                Console.Write(e);
+                dataPersonal = new DataSet();
+            }
+            finally
+            {
+                if (mysqlCmd != null) mysqlCmd.Dispose();
+                if (mysqlAdapter != null) mysqlAdapter.Dispose();
+                if (connection != null) connection.Close();
+            }
+
+            return dataPersonal;
+           
         }
 
 

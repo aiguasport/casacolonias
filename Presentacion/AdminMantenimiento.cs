@@ -21,17 +21,13 @@ namespace Presentacion
 
         private void AdminMantenimiento_Load(object sender, EventArgs e)
         {
-           
-            List<Administrador> listAdmin = new List<Administrador>();
-            listAdmin = control.getAllAdministrador();
-
-            foreach (var item in listAdmin)
+            DataSet listAdmin = new DataSet();
+            listAdmin = control.getAllAdministradorFull();
+            DataTable dt = listAdmin.Tables[0];
+            foreach (DataRow row in dt.Rows)
             {
-                dataGridView1.Rows.Add(item.Mydni.ToString(), item.Mynum_SS.ToString(), item.Mytitulacion.ToString());
+                dataGridView1.Rows.Add(Convert.ToString(row["dni"].ToString()), Convert.ToString(row["nombre"].ToString()), Convert.ToString(row["apellidos"].ToString()), Convert.ToString(row["mail"].ToString()), Convert.ToString(row["num_SS"].ToString()), Convert.ToString(row["titulacion"].ToString()));
             }
-
-
-           
 
         }
 

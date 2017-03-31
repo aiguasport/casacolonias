@@ -33,6 +33,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminMantenimiento));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.DNI = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MAIL = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SS = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TITULO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modificar = new System.Windows.Forms.DataGridViewButtonColumn();
@@ -55,6 +58,9 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.DNI,
+            this.Column1,
+            this.Column2,
+            this.MAIL,
             this.SS,
             this.TITULO,
             this.Modificar});
@@ -79,6 +85,24 @@
             this.DNI.Name = "DNI";
             this.DNI.ToolTipText = "MODIFY";
             this.DNI.Width = 59;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "NOMBRE";
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 98;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "APELLIDOS";
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 115;
+            // 
+            // MAIL
+            // 
+            this.MAIL.HeaderText = "MAIL";
+            this.MAIL.Name = "MAIL";
+            this.MAIL.Width = 67;
             // 
             // SS
             // 
@@ -123,6 +147,9 @@
 
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn DNI;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MAIL;
         private System.Windows.Forms.DataGridViewTextBoxColumn SS;
         private System.Windows.Forms.DataGridViewTextBoxColumn TITULO;
         private System.Windows.Forms.DataGridViewButtonColumn Modificar;

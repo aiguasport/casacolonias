@@ -71,11 +71,11 @@
     <Compile Include="AddMonitor.Designer.cs">
       <DependentUpon>AddMonitor.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddTareas.cs">
+    <Compile Include="AddActividad.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddTareas.Designer.cs">
-      <DependentUpon>AddTareas.cs</DependentUpon>
+    <Compile Include="AddActividad.Designer.cs">
+      <DependentUpon>AddActividad.cs</DependentUpon>
     </Compile>
     <Compile Include="AdminMantenimiento.cs">
       <SubType>Form</SubType>
@@ -102,11 +102,11 @@
     <Compile Include="SuperAdmin.Designer.cs">
       <DependentUpon>SuperAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="TareasMantenimiento.cs">
+    <Compile Include="ActividadesMantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TareasMantenimiento.Designer.cs">
-      <DependentUpon>TareasMantenimiento.cs</DependentUpon>
+    <Compile Include="ActividadesMantenimiento.Designer.cs">
+      <DependentUpon>ActividadesMantenimiento.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -116,8 +116,8 @@
     <EmbeddedResource Include="AddMonitor.resx">
       <DependentUpon>AddMonitor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddTareas.resx">
-      <DependentUpon>AddTareas.cs</DependentUpon>
+    <EmbeddedResource Include="AddActividad.resx">
+      <DependentUpon>AddActividad.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminMantenimiento.resx">
       <DependentUpon>AdminMantenimiento.cs</DependentUpon>
@@ -132,8 +132,8 @@
     <EmbeddedResource Include="SuperAdmin.resx">
       <DependentUpon>SuperAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TareasMantenimiento.resx">
-      <DependentUpon>TareasMantenimiento.cs</DependentUpon>
+    <EmbeddedResource Include="ActividadesMantenimiento.resx">
+      <DependentUpon>ActividadesMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

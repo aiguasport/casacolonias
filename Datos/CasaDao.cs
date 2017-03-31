@@ -18,6 +18,8 @@ namespace Datos
             dataSource = BDConect.getInstance();
         }
 
+        //Devuelve una lista de objetos casa
+
         public List<Casa> getAllCasas()
         {
             List<Casa> casa = new List<Casa>();

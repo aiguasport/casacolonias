@@ -56,7 +56,7 @@ namespace Presentacion
 
         private void altaToolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            AddTareas newMDIChild = new AddTareas();
+            AddActividad newMDIChild = new AddActividad();
             // Set the Parent Form of the Child window.
             newMDIChild.MdiParent = this;
             // Display the new form.
@@ -65,11 +65,16 @@ namespace Presentacion
 
         private void listarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            TareasMantenimiento newMDIChild = new TareasMantenimiento();
+            ActividadesMantenimiento newMDIChild = new ActividadesMantenimiento();
             // Set the Parent Form of the Child window.
             newMDIChild.MdiParent = this;
             // Display the new form.
             newMDIChild.Show();
+        }
+        //Boton para salir de la APP
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

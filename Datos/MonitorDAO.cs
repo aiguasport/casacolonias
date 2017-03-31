@@ -18,6 +18,9 @@ namespace Datos
             dataSource = BDConect.getInstance();
         }
 
+        //Añade una monitor a la tabla Monitor
+        //Parametro = objeto Monitor
+        //return 1 si la insercion es correcta o 0 si es error
         public int addMonitor(Monitor monitor)
         {
             int result = 0;
@@ -54,6 +57,9 @@ namespace Datos
             return result;
         }
 
+        //Actualizar un registro de la tabla monitor
+        //Parametro = objeto monitor
+        //return 1 si la insercion es correcta o 0 si es error
         public int updateMonitor(Monitor monitor)
         {
             int result = 0;
@@ -89,7 +95,8 @@ namespace Datos
 
             return result;
         }
-
+        //Funcion para devolver una combinacion de las tablas Personal y monitor
+        //Devuelve un DataSet o un null en caso de error
         public DataSet getAllPersonalMonitor()
         {
             DataSet dataPersonal = new DataSet();
@@ -125,6 +132,9 @@ namespace Datos
 
         }
 
+        //Borrar un registro de la tabla monitor
+        //Parametro = dni del monitor
+        //return 1 si la insercion es correcta o 0 si es error
         public int borrarMonitor(string dni)
         {
 

@@ -17,12 +17,10 @@ C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debu
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.AddAdministrador.resources
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.AddMonitor.resources
-C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.AddTareas.resources
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.AdminMantenimiento.resources
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.MonitorMantenimiento.resources
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.SuperAdmin.resources
-C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.TareasMantenimiento.resources
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.dll
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.pdb
@@ -37,3 +35,5 @@ C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debu
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\MySql.Data.Entity.EF6.dll
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\EntityFramework.xml
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.AddActividad.resources
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.ActividadesMantenimiento.resources

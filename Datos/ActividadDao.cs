@@ -16,7 +16,9 @@ namespace Datos
         {
             dataSource = BDConect.getInstance();
         }
-
+        //Añade una actividad a la tabla acitividad
+        //Parametro = objeto Actividad
+        //return 1 si la insercion es correcta o 0 si es error
         public int addActividad(Actividad actividad)
         {
   
@@ -54,6 +56,9 @@ namespace Datos
             return result;
         }
 
+        //Añade una actividad a la tabla acitividad_casa
+        //Parametro = objeto Actividad_casa
+        //return 1 si la insercion es correcta o 0 si es error
         public int addActividadCasa(Actividad actividad)
         {
 
@@ -91,6 +96,8 @@ namespace Datos
             return result;
         }
 
+        //Funcion para devolver una combinacion de las tablas actividad y actividad_casa
+        //Devuelve un DataSet o un null en caso de error
         public DataSet getAllActividadYCasa()
         {
             DataSet dataActividad = new DataSet();
