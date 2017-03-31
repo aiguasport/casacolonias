@@ -37,3 +37,5 @@ C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debu
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.AddActividad.resources
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.ActividadesMantenimiento.resources
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.AdminForm.resources
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.AdminFormChilde.resources

@@ -30,14 +30,21 @@ namespace CasaColonias
             {
                 //if exist in Table person,search in table Adminstrador,if exit return 1 if not search 
                 //in table monitor
-                int rolAdmin = control.getRolAdministrador(txtDni.Text);
+                string rolAdmin = control.getRolAdministrador(txtDni.Text);
 
-                if(rolAdmin == 1)
+                if(rolAdmin == "super")
                 {
                     SuperAdmin miForm = new SuperAdmin();
                     miForm.Show();
                     this.Hide();
-                }else
+                }else if (rolAdmin == "administrador")
+                {
+                    AdminForm adminform = new AdminForm();
+                    adminform.Show();
+                    this.Hide();
+
+                }
+                else
                 {
 
                     int rolMonitor = control.getRolMonitor(txtDni.Text);

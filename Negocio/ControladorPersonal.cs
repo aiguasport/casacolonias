@@ -29,7 +29,7 @@ namespace Negocio
 
         //obtemos el rol de un adminstrador pasandole como parametro el nif
         
-        public int getRolAdministrador(string nif)
+        public String getRolAdministrador(string nif)
         {
             return personal.getRolAdministrador(nif);
         }

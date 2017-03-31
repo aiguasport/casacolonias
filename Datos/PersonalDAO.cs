@@ -101,15 +101,15 @@ namespace Datos
             return result;
         }
         //Search if person is in Administrador Table,return 1 if exist or 0 if not;
-        public int getRolAdministrador(string nif)
+        public String getRolAdministrador(string nif)
         {
-            int result = 0;
+            string result = "";
             DataSet dataPersonal = new DataSet();
             MySqlConnection connection = null;
             MySqlCommand mysqlCmd = null;
             MySqlDataAdapter mysqlAdapter = null;
             String sql;
-            sql = "SELECT count(dni) as result from administrador where dni = '" + nif + "' and titulacion = 'super'";
+            sql = "SELECT titulacion from administrador where dni = '" + nif + "'";
             try
             {
                 connection = dataSource.getConnection();
@@ -117,12 +117,12 @@ namespace Datos
                 mysqlCmd = new MySqlCommand(sql, connection);
                 mysqlAdapter = new MySqlDataAdapter(mysqlCmd);
                 mysqlAdapter.Fill(dataPersonal);
-                result = int.Parse(dataPersonal.Tables[0].Rows[0][0].ToString());
+                result = dataPersonal.Tables[0].Rows[0][0].ToString();
             }
             catch (Exception e)
             {
                 Console.Write(e);
-                result = 0;
+                result = "";
             }
             finally
             {
