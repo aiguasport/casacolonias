@@ -49,9 +49,7 @@ C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\bin\Deb
 C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\bin\Debug\MySql.Data.Entity.EF6.dll
 C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\bin\Debug\Negocio.dll
 C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\bin\Debug\Datos.pdb
-C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\bin\Debug\Datos.dll.config
 C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\bin\Debug\Negocio.pdb
-C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\bin\Debug\Negocio.dll.config
 C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\bin\Debug\EntityFramework.xml
 C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
@@ -68,3 +66,5 @@ C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\obj\Deb
 C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
 C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\obj\Debug\Presentacion.dll
 C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\obj\Debug\Presentacion.AddChilde.resources
+C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\obj\Debug\Presentacion.ModifyChilde.resources

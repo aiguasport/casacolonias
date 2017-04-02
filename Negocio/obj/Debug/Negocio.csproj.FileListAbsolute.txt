@@ -31,4 +31,3 @@ C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Negocio\bin\Debug\En
 C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
 C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Negocio\obj\Debug\Negocio.dll
 C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Negocio\obj\Debug\Negocio.pdb
-C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Negocio\bin\Debug\Datos.dll.config

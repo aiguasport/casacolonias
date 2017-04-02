@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ControladorActividades.cs" />
+    <Compile Include="ControladorAdmin.cs" />
     <Compile Include="ControladorPersonal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

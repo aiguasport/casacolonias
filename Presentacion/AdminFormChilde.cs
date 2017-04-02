@@ -16,5 +16,18 @@ namespace Presentacion
         {
             InitializeComponent();
         }
+
+        private void añadirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddChilde addchilde = new AddChilde();
+            addchilde.Show();
+        }
+
+        private void modificarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            ModifyChilde modchilde = new ModifyChilde();
+            modchilde.Show();
+        }
     }
 }
