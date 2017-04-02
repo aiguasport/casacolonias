@@ -14,3 +14,15 @@ C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Datos\bin\Debug\Entit
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Datos\bin\Debug\MySql.Data.Entity.EF6.dll
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Datos\bin\Debug\EntityFramework.xml
 C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Datos\bin\Debug\Datos.dll.config
+C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Datos\bin\Debug\Datos.dll
+C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Datos\bin\Debug\Datos.pdb
+C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Datos\bin\Debug\MySql.Data.dll
+C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Datos\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Datos\obj\Debug\Datos.dll
+C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Datos\obj\Debug\Datos.pdb
