@@ -148,7 +148,7 @@ namespace Datos
             int codigop;
             codigop = this.poblacionCod(childe.Poblacion);
             String sql;
-            sql = "UPDATE administrador SET carnet='" + childe.Carnet + "',nombre='" + childe.Name + "',apellidos='" + childe.Apellidos + "', direccion='" + childe.Direccion + "', sexo='" + childe.Sexo + "', anio_nac='" + childe.Anionac + "', codigo_poblacion=" + codigop
+            sql = "UPDATE nino SET carnet='" + childe.Carnet + "',nombre='" + childe.Name + "',apellidos='" + childe.Apellidos + "', direccion='" + childe.Direccion + "', sexo='" + childe.Sexo + "', anio_nac='" + childe.Anionac + "', codigo_poblacion=" + codigop
                 + " WHERE carnet =" + childe.Carnet;
 
             try
