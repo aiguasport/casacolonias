@@ -19,11 +19,19 @@ namespace Presentacion
 
         private void altaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //Compruebo si el formulario que lista los administradores esta abierto
+            //en caso afirmativo lo cierro para evitar duplicados
+            Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is AdminMantenimiento);
+            if (frm != null)
+            {
+                frm.Close();
+            }
             AddAdministrador newMDIChild = new AddAdministrador();
             // Set the Parent Form of the Child window.
             newMDIChild.MdiParent = this;
             // Display the new form.
             newMDIChild.Show();
+
         
     }
 
@@ -38,6 +46,14 @@ namespace Presentacion
 
         private void altaToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            //Compruebo si el formulario que lista los monitores esta abierto
+            //en caso afirmativo lo cierro para evitar duplicados
+            Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is MonitorMantenimiento);
+            if (frm != null)
+            {
+                frm.Close();
+            }
+
             AddMonitor newMDIChild = new AddMonitor();
             // Set the Parent Form of the Child window.
             newMDIChild.MdiParent = this;
@@ -56,6 +72,14 @@ namespace Presentacion
 
         private void altaToolStripMenuItem2_Click(object sender, EventArgs e)
         {
+            //Compruebo si el formulario que lista las actividades esta abierto
+            //en caso afirmativo lo cierro para evitar duplicados
+            Form frm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is ActividadesMantenimiento);
+            if(frm != null)
+            {
+                frm.Close();
+            }
+
             AddActividad newMDIChild = new AddActividad();
             // Set the Parent Form of the Child window.
             newMDIChild.MdiParent = this;
@@ -65,6 +89,7 @@ namespace Presentacion
 
         private void listarToolStripMenuItem_Click(object sender, EventArgs e)
         {
+           
             ActividadesMantenimiento newMDIChild = new ActividadesMantenimiento();
             // Set the Parent Form of the Child window.
             newMDIChild.MdiParent = this;

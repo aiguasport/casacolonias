@@ -59,8 +59,14 @@ namespace Presentacion
                 result = control.addActividadCasa(actividad);
                 if(result == 1)
                 {
-                    MessageBox.Show("Actividad insertada");
-                    Close();
+                MessageBox.Show("Actividad insertada");
+                Close();
+                ActividadesMantenimiento newMDIChild = new ActividadesMantenimiento();
+                // Set the Parent Form of the Child window.
+                newMDIChild.MdiParent = SuperAdmin.ActiveForm; ;
+                // Display the new form.
+                newMDIChild.Show();
+                
                 }
             
 

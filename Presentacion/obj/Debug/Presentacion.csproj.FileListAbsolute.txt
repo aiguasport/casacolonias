@@ -68,3 +68,5 @@ C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\obj\Deb
 C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\obj\Debug\Presentacion.pdb
 C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\obj\Debug\Presentacion.AddChilde.resources
 C:\Users\Valeria\Documents\GitHub\casacolonias\casacolonias\Presentacion\obj\Debug\Presentacion.ModifyChilde.resources
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.AddChilde.resources
+C:\Users\alumne\Documents\GitHub\CasaColonias\casacolonias\Presentacion\obj\Debug\Presentacion.ModifyChilde.resources

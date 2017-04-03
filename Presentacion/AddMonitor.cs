@@ -69,6 +69,12 @@ namespace Presentacion
                             if (result2 == 1)
                             {
                                 MessageBox.Show("Añadido");
+                                MonitorMantenimiento newMDIChild = new MonitorMantenimiento();
+                                // Set the Parent Form of the Child window.
+                                newMDIChild.MdiParent = SuperAdmin.ActiveForm;
+                                // Display the new form.
+                                newMDIChild.Show();
+
                                 Close();
                             }
                         }

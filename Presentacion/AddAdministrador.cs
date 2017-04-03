@@ -28,6 +28,7 @@ namespace Presentacion
             //si el obtenemos un dni de la tabla padre consideramos que vamos a actuallizar un registro
             //lo buscamos en la base de datos y llenamos los campos con el
             if(update != ""){
+                txtDni.Enabled = false;
                 DataSet ds = new DataSet();
                 ds = control.getAllPersonalAdminByDni(update);
                 DataTable dt = ds.Tables[0];
@@ -94,7 +95,13 @@ namespace Presentacion
                             if (result2 == 1)
                             {
                                 MessageBox.Show("Añadido");
+                                AdminMantenimiento newMDIChild = new AdminMantenimiento();
+                                // Set the Parent Form of the Child window.
+                                newMDIChild.MdiParent = SuperAdmin.ActiveForm;
+                                // Display the new form.
+                                newMDIChild.Show();
                                 Close();
+                               
                             }
                         }
 
@@ -114,6 +121,11 @@ namespace Presentacion
                 if(result == 1)
                 {
                     MessageBox.Show("Actualizado");
+                    AdminMantenimiento newMDIChild = new AdminMantenimiento();
+                    // Set the Parent Form of the Child window.
+                    newMDIChild.MdiParent = SuperAdmin.ActiveForm;
+                    // Display the new form.
+                    newMDIChild.Show();
                     Close();
                 }
 

@@ -46,7 +46,7 @@ namespace Presentacion
             // Display the new form.
             newMDIChild.update = valor;
             newMDIChild.Show();
-           
+            Close();
         }
     }
 
