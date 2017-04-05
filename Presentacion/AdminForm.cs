@@ -15,11 +15,20 @@ namespace Presentacion
         public AdminForm()
         {
             InitializeComponent();
-            AdminFormChilde adminformchilde = new AdminFormChilde();
-            // Set the Parent Form of the Child window.
-            adminformchilde.MdiParent = this;
-            // Display the new form.
-            adminformchilde.Show();
+        }
+
+        private void añadirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddChilde addchilde = new AddChilde();
+            addchilde.MdiParent = this;
+            addchilde.Show();
+        }
+
+        private void modificarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ModifyChilde modchilde = new ModifyChilde();
+            modchilde.MdiParent = this;
+            modchilde.Show();
         }
     }
 }

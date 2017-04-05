@@ -49,6 +49,7 @@
             this.txtDni.Name = "txtDni";
             this.txtDni.Size = new System.Drawing.Size(172, 25);
             this.txtDni.TabIndex = 0;
+            this.txtDni.Text = "dni2";
             // 
             // label1
             // 
@@ -78,6 +79,7 @@
             this.txtMail.Name = "txtMail";
             this.txtMail.Size = new System.Drawing.Size(172, 25);
             this.txtMail.TabIndex = 2;
+            this.txtMail.Text = "nosuper@mail.com";
             // 
             // btnLogin
             // 

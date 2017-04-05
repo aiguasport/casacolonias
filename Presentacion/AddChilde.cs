@@ -44,16 +44,19 @@ namespace Presentacion
                 if (control.add(childe))
                 {
                     MessageBox.Show("Añadido");
+                    this.Close();
                 }
                 else
                 {
                     MessageBox.Show("Error de inserción");
+                    this.Close();
                 }
                 
             }
             else
             {
                 MessageBox.Show("ya existe");
+                this.Close();
             }
         }
     }

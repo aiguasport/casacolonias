@@ -68,6 +68,7 @@
     <Compile Include="Casa.cs" />
     <Compile Include="CasaDao.cs" />
     <Compile Include="Childe.cs" />
+    <Compile Include="InscripcionesDAO.cs" />
     <Compile Include="Monitor.cs" />
     <Compile Include="MonitorDAO.cs" />
     <Compile Include="PersonalDAO.cs" />
